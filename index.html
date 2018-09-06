@@ -26,14 +26,19 @@
       </div>
     </nav>
     <!-- Mobile version of navbar -->
-    <ul class="sidenav" id="mobile">
-      <li><a href="#">Lessons</a></li>
-      <li><a href="#">Resources</a></li>
-      <li><a href="#">Fun Stuff >_></a></li>
-    </ul>
+      <ul class="sidenav" id="mobile">
+        <li><a href="#">Lessons</a></li>
+        <li><a href="#">Resources</a></li>
+        <li><a href="#">Fun Stuff >_></a></li>
+      </ul>
     <h1 class="titlename">Kaltxì ma kifkey!</h1>
     <!--JavaScript at end of body for optimized loading-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type="text/javascript" src="js/materialize.js"></script>
+    <script>
+      $(document).ready(function(){
+        $('.sidenav').sidenav();
+      });
+    </script>
   </body>
 </html>
