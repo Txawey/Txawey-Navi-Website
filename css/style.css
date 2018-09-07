@@ -1,5 +1,11 @@
-.brand-logo {
+nav .brand-logo {
 	padding-left: 16px !important;
+	white-space: nowrap;
+}
+
+#page-content-div {
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .titlename {
