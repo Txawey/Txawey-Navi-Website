@@ -1,11 +1,36 @@
+@font-face {
+	font-family: "Frolicky";
+	src: url("../font/Frolicky.otf") format("truetype");
+}
+
+body {
+	font-family: Arial;
+	color: #eeeeff;
+	background-color: #5d5d94;
+}
+
+.nav-wrapper {
+	background-color: #7e8eff !important;
+}
+
+.nav-content {
+	background-color: #2d2258 !important;
+}
+
 nav .brand-logo {
 	padding-left: 16px !important;
 	white-space: nowrap;
+	font-family: "Frolicky";
+	font-size: 3.4em;
 }
 
 #page-content-div {
     padding-top: 40px;
     padding-bottom: 40px;
+}
+
+p {
+	font-size: 1.2em;
 }
 
 .titlename {
