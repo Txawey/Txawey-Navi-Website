@@ -3,8 +3,13 @@
 	src: url("../font/Frolicky.otf") format("truetype");
 }
 
+@font-face{
+	font-family: "Gentium Basic";
+	src: url("../font/Gentium-Basic/GenBasR.ttf")
+}
+
 body {
-	font-family: Arial;
+	font-family: "Gentium Basic";
 	color: #eeeeff;
 	background-color: #5d5d94;
 }
