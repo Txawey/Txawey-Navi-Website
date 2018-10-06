@@ -1,6 +1,6 @@
 <?php
-$root = '/Txawey-Navi-Website/';
-// $root = '/';
+// $root = '/Txawey-Navi-Website/';
+$root = '/';
 echo '<!DOCTYPE html>
 <html>
   <head>
