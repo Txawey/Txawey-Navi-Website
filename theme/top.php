@@ -27,12 +27,13 @@ echo '<!DOCTYPE html>
             <li><a href="#">Fun Stuff >_></a></li>
           </ul>
         </div>
-        <div class="nav-content deep-purple">
+        <!-- <div class="nav-content deep-purple">
           <ul class="tabs tabs-transparent">
             <li class="tab"><a href="#">Pronunciation</a></li>
             <li class="tab"><a href="#">Your First Sentences</a></li>
             <li class="tab disabled">Nothing to See Here >_></li>
           </ul>
+        </div> -->
       </nav>
       <!-- Mobile version of navbar -->
         <ul class="sidenav" id="mobile">
