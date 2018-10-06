@@ -19,7 +19,7 @@ echo '<!DOCTYPE html>
       <!-- Regular navbar -->
       <nav class="nav-extended">
         <div class="nav-wrapper light-blue">
-          <a href="index.php" class="brand-logo">Txaweyä Kelutral</a>
+          <a href="' . $root . 'index.php" class="brand-logo">Txaweyä Kelutral</a>
           <a href="#" data-target="mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
           <ul class="right hide-on-med-and-down">
             <li><a href="' . $root . 'lessons/index.php">Lessons</a></li>
