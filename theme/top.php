@@ -36,7 +36,7 @@ echo '<!DOCTYPE html>
       </nav>
       <!-- Mobile version of navbar -->
         <ul class="sidenav" id="mobile">
-          <li><a href="' . $root . 'index.php">Lessons</a></li>
+          <li><a href="' . $root . 'lessons/index.php">Lessons</a></li>
           <li><a href="#">Resources</a></li>
           <li><a href="#">Fun Stuff >_></a></li>
         </ul>
