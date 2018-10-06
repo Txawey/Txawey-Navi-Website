@@ -250,7 +250,7 @@ echo '
   <div class="row">
     <div class="col s12">
       <ul id="dropdown1" class="dropdown-content">
-        <li><a href="/lessons/lesson1.html">Sounds</a></li>
+        <li><a href="' . $root . 'lessons/lesson1.php">Sounds</a></li>
         <li><a href="#!">TBD</a></li>
       </ul>
     </div>
