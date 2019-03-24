@@ -251,7 +251,7 @@ echo '
     <div class="col s12">
       <ul id="dropdown1" class="dropdown-content">
         <li><a href="' . $root . 'lessons/lesson1.php">Sounds</a></li>
-        <li><a href="#!">TBD</a></li>
+        <li><a href="' . $root . 'lessons/lesson2.php">Intro to Sentences</a></li>
       </ul>
     </div>
   </div>
@@ -260,7 +260,7 @@ echo '
       <a class="btn deep-purple">Prev</a>
     </div>
     <div class="col s4">
-      <a class="dropdown-trigger btn deep-purple" href="#" data-target="dropdown1" hover="true">Lessons</a>
+      <a class="dropdown-trigger btn deep-purple" href="' . $root . 'lessons/index.php" data-target="dropdown1" hover="true">Lessons</a>
     </div>
     <div class="col s4">
       <a class="btn deep-purple">Next</a>
