@@ -23,14 +23,14 @@ echo '<!DOCTYPE html>
           <a href="#" data-target="mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
           <ul class="right hide-on-med-and-down">
             <li><a href="' . $root . 'lessons/index.php">Lessons</a></li>
-            <li><a href="#">Resources</a></li>
-            <li><a href="#">Fun Stuff >_></a></li>
+            <li><a href="' . $root . 'projects/index.php">Projects</a></li>
+            <li><a href="' . $root . 'links/index.php">Links</a></li>
           </ul>
         </div>
         <!-- <div class="nav-content deep-purple">
           <ul class="tabs tabs-transparent">
-            <li class="tab"><a href="#">Pronunciation</a></li>
-            <li class="tab"><a href="#">Your First Sentences</a></li>
+            <li class="tab"><a href="' . $root . 'lessons/lesson1.php">Pronunciation</a></li>
+            <li class="tab"><a href="' . $root . 'lessons/lesson2.php">Your First Sentences</a></li>
             <li class="tab disabled">Nothing to See Here >_></li>
           </ul>
         </div> -->
@@ -38,8 +38,8 @@ echo '<!DOCTYPE html>
       <!-- Mobile version of navbar -->
         <ul class="sidenav" id="mobile">
           <li><a href="' . $root . 'lessons/index.php">Lessons</a></li>
-          <li><a href="#">Resources</a></li>
-          <li><a href="#">Fun Stuff >_></a></li>
+          <li><a href="' . $root . 'projects/index.php">Projects</a></li>
+          <li><a href="' . $root . 'links/index.php">Links</a></li>
         </ul>
     </header>
     <main>
