@@ -22,6 +22,7 @@ echo '<!DOCTYPE html>
           <a href="' . $root . 'index.php" class="brand-logo">Txaweyä Kelutral</a>
           <a href="#" data-target="mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
           <ul class="right hide-on-med-and-down">
+            <li><a href="' . $root . 'blog/index.php">Projects</a></li>
             <li><a href="' . $root . 'lessons/index.php">Lessons</a></li>
             <li><a href="' . $root . 'projects/index.php">Projects</a></li>
             <li><a href="' . $root . 'links/index.php">Links</a></li>
@@ -37,6 +38,7 @@ echo '<!DOCTYPE html>
       </nav>
       <!-- Mobile version of navbar -->
         <ul class="sidenav" id="mobile">
+          <li><a href="' . $root . 'blog/index.php">Projects</a></li>
           <li><a href="' . $root . 'lessons/index.php">Lessons</a></li>
           <li><a href="' . $root . 'projects/index.php">Projects</a></li>
           <li><a href="' . $root . 'links/index.php">Links</a></li>
