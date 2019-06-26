@@ -1,6 +1,6 @@
 <?php
 include '../theme/top.php';
-echo '
+?>
   <div class="titlename">Intro to Sentences</div>
   <p> </p>
 
@@ -27,7 +27,8 @@ echo '
     <div class="col s4">
       <a class="btn deep-purple">Next</a>
     </div>
-  </div>';
+  </div>
+<?php
 include '../theme/bottom.php';
 echo '<script>
 $(".dropdown-trigger").dropdown();

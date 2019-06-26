@@ -1,6 +1,6 @@
 <?php
 include '../theme/top.php';
-echo '
+?>
   <div class="titlename">Lessons</div>
   <p>Here is a list of all lessons
      along with short summaries of the content within.  You can navigate
@@ -20,6 +20,7 @@ echo '
       This lesson explores several topics including the first 2
       noun cases, Na\'vi free word order, transitive verbs, and more!
     </p>
-  </div>';
+  </div>
+<?php
 include '../theme/bottom.php';
 ?>

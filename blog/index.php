@@ -1,5 +1,7 @@
 <?php
 include '../theme/top.php';
-echo '<p>PLACEHOLDER</p>';
+?>
+<p>PLACEHOLDER</p>
+<?php
 include '../theme/bottom.php';
 ?>

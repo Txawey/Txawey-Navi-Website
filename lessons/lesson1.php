@@ -1,6 +1,6 @@
 <?php
 include '../theme/top.php';
-echo '
+?>
   <div class="titlename">Pronunciation</div>
   <p>The first step to learning any language is to learn what it sounds like!</p>
   <h4>The Alphabet</h4>
@@ -265,7 +265,8 @@ echo '
     <div class="col s4">
       <a class="btn deep-purple">Next</a>
     </div>
-  </div>';
+  </div>'
+<?php
 include '../theme/bottom.php';
 echo '<script>
 $(".dropdown-trigger").dropdown();
