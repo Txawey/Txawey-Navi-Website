@@ -7,7 +7,7 @@ echo '</div>
 <script type="text/javascript" src="'. $root . '/js/materialize.js"></script>
 <script>
 $(document).ready(function(){
-  $(\'.sidenav\').sideNav();
+  $(\'.sidenav-trigger\').sidenav();
 });
 </script>
 </main>
