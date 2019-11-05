@@ -4,7 +4,7 @@ echo '<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Lessons - Txaweyä Kelutral</title>
+    <title>Txaweyä Kelutral</title>
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
